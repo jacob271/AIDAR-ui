@@ -6,6 +6,7 @@ import openai_api
 
 st.title("AIDAR - Disaster relief management")
 
+st.subheader("Damage Assessment")
 image = st.file_uploader("Choose a picture")
 
 if st.button("Get Damage Assessment"):
@@ -18,6 +19,8 @@ if st.button("Get Damage Assessment"):
 
 # display a divider between the two widgets
 st.markdown("---")
+
+st.subheader("Recommendations")
 
 # display a text box to enter the scenario
 
