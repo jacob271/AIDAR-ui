@@ -2,7 +2,7 @@ import os
 import openai
 import streamlit as st
 
-openai.api_key = "sk-Vtn6dOYdbpAFu9HdRLfCcYhDNd4QgmRS5VGukUzm"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 base_text = "Emergency management specialists plan for and coordinate emergency response programs and activities for " \
             "natural, wartime, and technological disasters. Based on the SCENARIO (with a type of disaster, " \
