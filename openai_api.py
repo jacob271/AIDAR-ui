@@ -1,7 +1,8 @@
 import os
 import openai
+import streamlit as st
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "sk-Vtn6dOYdbpAFu9HdRLfCcYhDNd4QgmRS5VGukUzm"
 
 base_text = "Emergency management specialists plan for and coordinate emergency response programs and activities for " \
             "natural, wartime, and technological disasters. Based on the SCENARIO (with a type of disaster, " \
@@ -62,7 +63,7 @@ def get_tasks_from_the_scenario(scenario_text):
     return tasks
 
 #
-#if __name__ == '__main__':
+# if __name__ == '__main__':
 #    sample_text = "Massive destruction after the hurricane in the small town in the south of Miami. The population " \
 #                    "estimation of the town is 75000 people. There are several road blockages to the bigger cities " \
 #                    "and multiple gas leakages."
