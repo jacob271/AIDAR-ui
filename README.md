@@ -1,6 +1,6 @@
-# AIDAR - Disaster Management
+# AIDAR - Disaster Management System
 
-As part of the [TUM.ai Makeathon 2022](https://makeathon.tum-ai.com/), we created AIDAR. AIDAR uses state of the art ML to analyze all relevant data sources about large disasters to give response personal the best action recommendations.
+As part of the [TUM.ai Makeathon 2022](https://makeathon.tum-ai.com/), we created AIDAR System. It uses state-of-the-art ML models to analyze all relevant data sources about large disasters to give response personal the best action recommendations.
 
 The project is divided into a UI and a fastapi server that provides a damage assessment service (see [here](https://github.com/jacob271/AIDAR-Destruction-Detection)).
 
