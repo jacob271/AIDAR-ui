@@ -1,6 +1,7 @@
 import streamlit as st
 import openai_api
 
+
 st.set_page_config(page_icon="📋", layout='wide')
 
 st.markdown("# First steps recommendations")
