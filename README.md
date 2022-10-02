@@ -10,7 +10,7 @@ You need `python3.8` or higher to run the UI.
 
 Install the requirements using `pip install -r requirements.txt`.
 
-In order two use the damage assessment, make sure to start the fastAPI server first. You can instructions on how to do so in [this repository](https://github.com/jacob271/AIDAR-Destruction-Detection).
+In order two use the damage assessment, make sure to start the fastAPI server first. You can find instructions on how to do so in [this repository](https://github.com/jacob271/AIDAR-Destruction-Detection).
 
 If you want to try out the recommendations, please provide a openAI API key by setting the corresponding environment variable with
 - Linux: `export OPENAI_API_KEY="YOUR_KEY"`
@@ -33,3 +33,7 @@ This is how the UI currently looks like.
 ### Recommendations
 
 ![image](demo_recommendations.png)
+
+### Critical Infrastructure
+
+![image](demo_infrastructure.png)
